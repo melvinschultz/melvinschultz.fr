@@ -1,0 +1,472 @@
+/* ==========================================================================
+   RESET
+   ========================================================================== */
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+      v2.0 | 20110126
+      License: none (public domain)
+   */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ==========================================================================
+   END RESET
+   ========================================================================== */
+
+body {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  font-family: 'Megrim', cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #E0E0E0;
+}
+h3 {
+  font-size: 35px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+h4 {
+  font-size: 25px;
+}
+h5 {
+  font-size: 22px;
+}
+p {
+  font-family: 'Poiret One', cursive;
+  font-size: 18px;
+}
+span {
+  color: #00A208;
+}
+
+a {
+  font-family: 'Poiret One', cursive;
+}
+
+/* ==========================================================================
+   header
+   ========================================================================== */
+
+header {
+  background: url(../images/fondTest2.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 675px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 2px solid #00A208;
+  color: #E0E0E0;
+}
+#prenom {
+  margin-bottom: 0;
+  font-size: 100px;
+  font-weight: bold;
+}
+#nom {
+  margin: 0;
+  font-size: 80px;
+  font-weight: normal;
+}
+
+/* ==========================================================================
+   END header
+   ========================================================================== */
+
+
+/* ==========================================================================
+   prez
+   ========================================================================== */
+
+.prez {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  align-items: center;
+}
+#photo {
+  box-shadow: 1px 1px 12px #555;
+}
+#photo:hover {
+  box-shadow: 1px 1px 17px #00A208;
+}
+.paragraphe {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  height: 350px;
+  margin-left: 50px;
+}
+.fa-quote-left {
+  align-self: flex-start;
+  margin-right: 30px;
+  color: #080808;
+}
+.text_prez {
+  align-self: center;
+  color: #080808;
+}
+.topo {
+  text-align: justify;
+}
+.fa-quote-right {
+  align-self: flex-end;
+  margin-left: 30px;
+  color: #080808;
+}
+
+/* ==========================================================================
+   END prez
+   ========================================================================== */
+
+
+/* ==========================================================================
+   expPro
+   ========================================================================== */
+
+.expPro {
+  background-color: #080808;
+  height: 150px;
+  color: #E0E0E0;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+.resum {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+.date {
+  font-family: 'Megrim', cursive;
+  margin-bottom: 5px;
+}
+.petit {
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 10px;
+  color: #E0E0E0;
+  font-family: 'Poiret One', cursive;
+  text-decoration: none;
+}
+.frise {
+  display: flex;
+  background-color: #080808;
+}
+.detail {
+  background-color: #080808;
+  height: 400px;
+  color: #E0E0E0;
+  display: flex;
+  justify-content: space-around;
+}
+.job1 {
+  width: 80%;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: inset 1px 1px 12px #000;
+  margin: auto;
+  background: url(../images/fishshop3.jpg) no-repeat;
+  background-size: 100%;
+  display: none;
+}
+.job2 {
+  width: 80%;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: inset 1px 1px 12px #000;
+  margin: auto;
+  background: url(../images/train2.jpg) no-repeat;
+  background-size: 100%;
+  display: none;
+}
+.job3 {
+  width: 80%;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: inset 1px 1px 12px #000;
+  margin: auto;
+  background: url(../images/code.jpg) no-repeat;
+  background-size: 100%;
+  /*display: none;*/
+}
+
+/*.job1:hover, .job2:hover, .job3:hover {
+  box-shadow: 1px 1px 12px #fff;
+}*/
+
+.artExp {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.artExp p {
+  text-align: center;
+  margin-top: 20px;
+  line-height: 20px;
+}
+
+/* ==========================================================================
+   END expPro
+   ========================================================================== */
+
+
+/* ==========================================================================
+   skills
+   ========================================================================== */
+
+.img_skills {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.img1, .img2, .img3 {
+  background-size: 100px 140px;
+  width: 100px;
+  height: 140px;
+}
+.img1 {
+  background: url(../images/logos_langage/logo_htmlNB.png) no-repeat;
+}
+.img1:hover {
+  background: url(../images/logos_langage/logo_htmlV.png) no-repeat;
+}
+.img2 {
+  background: url(../images/logos_langage/logo_css3NB.png) no-repeat;
+}
+.img2:hover {
+  background: url(../images/logos_langage/logo_css3V.png) no-repeat;
+}
+.img3 {
+  background: url(../images/logos_langage/logo_jsNB.png) no-repeat;
+}
+.img3:hover {
+  background: url(../images/logos_langage/logo_jsV2.png) no-repeat;
+}
+
+/* ==========================================================================
+   END skills
+   ========================================================================== */
+
+
+/* ==========================================================================
+      study
+      ========================================================================== */
+
+.study {
+  height: 250px;
+  background: url(../images/school2.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #E0E0E0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.level p {
+  font-family: 'Megrim', cursive;
+  font-size: 25px;
+  letter-spacing: 2;
+}
+
+/* ==========================================================================
+      END study
+      ========================================================================== */
+
+
+
+/* ==========================================================================
+   contact
+   ========================================================================== */
+
+.contact {
+  height: 750px;
+  background-color: #080808;
+  color: #E0E0E0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.formContact {
+  width: 40%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  text-align: left;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+input {
+  width: 70%;
+  height: 25px;
+  font-family: Arial, sans-serif;
+}
+
+input:focus {
+  color: #00A208;
+}
+
+textarea {
+  font-family: Arial;
+}
+
+.button {
+  width: 30%;
+  height: 50px;
+  border: none;
+  border-radius: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Megrim', cursive;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.button:hover {
+  color: #E0E0E0;
+  background-color: #00A208;
+}
+
+.telMail {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.telMail h5 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.titreRsx {
+  margin-top: 130px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.telMail p {
+  margin-top: 20px;
+}
+
+.telMail a {
+  margin-top: 30px;
+  color: #E0E0E0;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.telMail a:hover {
+  color: #00A208;
+}
+
+/* ==========================================================================
+   END contact
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   footer
+   ========================================================================== */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  color: #E0E0E0;
+  background-color: #080808;
+  height: 70px;
+  align-items: center;
+  border-top: 2px solid #00A208;
+}
+
+.copyR {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright {
+  /*display: flex;
+  justify-content: center;*/
+  margin-left: 40px;
+}
+
+.copyright p {
+  font-size: 12px;
+  letter-spacing: 4;
+}
+
+.rsxSoc {
+  /*display: flex;
+  justify-content: center;*/
+  margin-right: 30px;
+}
+
+.rsxSoc a {
+  color: #E0E0E0;
+  margin-right: 10px;
+}
+
+.rsxSoc a:hover {
+  color: #00A208;
+}
+
+/* ==========================================================================
+   END footer
+   ========================================================================== */
