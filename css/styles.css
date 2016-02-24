@@ -161,13 +161,24 @@ header {
    expPro
    ========================================================================== */
 
+.titreExpPro {
+  background-color: #080808;
+  color: #E0E0E0;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
 .expPro {
   background-color: #080808;
   height: 150px;
   color: #E0E0E0;
   display: flex;
   justify-content: space-around;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 .resum {
   display: flex;
@@ -307,8 +318,23 @@ header {
   background-attachment: fixed;
   color: #E0E0E0;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
+}
+
+.titreStudy {
+  color: #E0E0E0;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.level {
+  margin-bottom: 20px;
 }
 
 .level p {
@@ -324,12 +350,162 @@ header {
 
 
 /* ==========================================================================
+   loisirs
+   ========================================================================== */
+
+.loisirs {
+  height: 400px;
+  background-color: #080808;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.loisirs h4 {
+  padding-top: 50px;
+  color: #E0E0E0;
+}
+
+.artLoisirs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: #E0E0E0;
+  width: 100%;
+}
+
+.iconLoisirs {
+  display: flex;
+  justify-content: space-around;
+  height: 200px;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+.icon1 {
+  background: url(../images/extNB.png) no-repeat;
+  background-position: center;
+  background-size: 73px 73px;
+  width: 88px;
+  height: 150px;
+  align-items: center;
+}
+
+.icon1:hover {
+  background: url(../images/extVB.png) no-repeat;
+  background-position: center;
+  background-size: 88px 88px;
+  width: 88px;
+  height: 150px;
+}
+
+.icon2 {
+  background: url(../images/gameNB.png) no-repeat;
+  background-position: center;
+  background-size: 73px 73px;
+  width: 88px;
+  height: 150px;
+}
+
+.icon2:hover {
+  background: url(../images/gameVB.png) no-repeat;
+  background-position: center;
+  background-size: 88px 88px;
+  width: 88px;
+  height: 150px;
+}
+
+.icon3 {
+  background: url(../images/pcNB.png) no-repeat;
+  background-position: center;
+  background-size: 73px 73px;
+  width: 88px;
+  height: 150px;
+}
+
+.icon3:hover {
+  background: url(../images/pcVB.png) no-repeat;
+  background-position: center;
+  background-size: 88px 88px;
+  width: 88px;
+  height: 150px;
+}
+
+.icon4 {
+  background: url(../images/friendsNB.png) no-repeat;
+  background-position: center;
+  background-size: 73px 73px;
+  width: 88px;
+  height: 150px;
+}
+
+.icon4:hover {
+  background: url(../images/friendsVB.png) no-repeat;
+  background-position: center;
+  background-size: 88px 88px;
+  width: 88px;
+  height: 150px;
+}
+
+.icon5 {
+  background: url(../images/globeNB.png) no-repeat;
+  background-position: center;
+  background-size: 73px 73px;
+  width: 88px;
+  height: 150px;
+}
+
+.icon5:hover {
+  background: url(../images/globeVB.png) no-repeat;
+  background-position: center;
+  background-size: 88px 88px;
+  width: 88px;
+  height: 150px;
+}
+
+.icon6 {
+  background: url(../images/cineNB.png) no-repeat;
+  background-position: center;
+  background-size: 73px 73px;
+  width: 88px;
+  height: 150px;
+}
+
+.icon6:hover {
+  background: url(../images/cineVB.png) no-repeat;
+  background-position: center;
+  background-size: 88px 88px;
+  width: 88px;
+  height: 150px;
+}
+
+/* ==========================================================================
+   END loisirs
+   ========================================================================== */
+
+
+
+/* ==========================================================================
    contact
    ========================================================================== */
 
+.titreContact {
+  background-color: #111;
+  color: #E0E0E0;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
 .contact {
-  height: 750px;
-  background-color: #080808;
+  height: 650px;
+  background-color: #111;
   color: #E0E0E0;
   display: flex;
   justify-content: space-around;
