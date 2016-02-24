@@ -122,10 +122,7 @@ header {
   align-items: center;
 }
 #photo {
-  box-shadow: 1px 1px 12px #555;
-}
-#photo:hover {
-  box-shadow: 1px 1px 17px #00A208;
+  box-shadow: 1px 1px 12px #c2c2c2;
 }
 .paragraphe {
   display: flex;
@@ -392,6 +389,7 @@ header {
   width: 88px;
   height: 150px;
   align-items: center;
+  cursor: pointer;
 }
 
 .icon1:hover {
@@ -408,6 +406,7 @@ header {
   background-size: 73px 73px;
   width: 88px;
   height: 150px;
+  cursor: pointer;
 }
 
 .icon2:hover {
@@ -424,6 +423,7 @@ header {
   background-size: 73px 73px;
   width: 88px;
   height: 150px;
+  cursor: pointer;
 }
 
 .icon3:hover {
@@ -440,6 +440,7 @@ header {
   background-size: 73px 73px;
   width: 88px;
   height: 150px;
+  cursor: pointer;
 }
 
 .icon4:hover {
@@ -456,6 +457,7 @@ header {
   background-size: 73px 73px;
   width: 88px;
   height: 150px;
+  cursor: pointer;
 }
 
 .icon5:hover {
@@ -472,6 +474,7 @@ header {
   background-size: 73px 73px;
   width: 88px;
   height: 150px;
+  cursor: pointer;
 }
 
 .icon6:hover {
