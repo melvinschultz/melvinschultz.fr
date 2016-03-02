@@ -407,6 +407,7 @@ header {
   /* Chrome, Safari, Opera */
   filter: none;
   transition: 0.8s;
+  cursor: pointer;
 }
 
 /* ==========================================================================
