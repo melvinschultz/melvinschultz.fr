@@ -81,7 +81,7 @@ a {
    ========================================================================== */
 
 header {
-  background: url(../images/fondTest2.jpg) no-repeat;
+  background: url(../images/backg/fondTest2.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
   height: 675px;
@@ -216,7 +216,7 @@ header {
   align-items: center;
   box-shadow: inset 1px 1px 12px #000;
   margin: auto;
-  background: url(../images/fishshop3.jpg) no-repeat;
+  background: url(../images/backg/fishshop3.jpg) no-repeat;
   background-size: 100%;
   display: none;
 }
@@ -228,7 +228,7 @@ header {
   align-items: center;
   box-shadow: inset 1px 1px 12px #000;
   margin: auto;
-  background: url(../images/train2.jpg) no-repeat;
+  background: url(../images/backg/train2.jpg) no-repeat;
   background-size: 100%;
   display: none;
 }
@@ -240,7 +240,7 @@ header {
   align-items: center;
   box-shadow: inset 1px 1px 12px #000;
   margin: auto;
-  background: url(../images/code.jpg) no-repeat;
+  background: url(../images/backg/code.jpg) no-repeat;
   background-size: 100%;
   /*display: none;*/
 }
@@ -306,7 +306,7 @@ header {
 
 .study {
   height: 250px;
-  background: url(../images/school2.jpg) no-repeat;
+  background: url(../images/backg/school2.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
   color: #E0E0E0;
