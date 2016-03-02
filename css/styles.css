@@ -125,10 +125,12 @@ header {
 .prez {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   width: 80%;
-  height: 500px;
   margin: auto;
   align-items: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 #photo {
   box-shadow: 1px 1px 12px #c2c2c2;
@@ -372,13 +374,14 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  flex-wrap: wrap;
   align-items: center;
   color: #E0E0E0;
-  width: 100%;
 }
 .iconLoisirs {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   height: 200px;
   width: 100%;
   padding-top: 25px;
@@ -565,4 +568,49 @@ footer {
 
 /* ==========================================================================
    END footer
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   RESPONSIVE STYLING
+   ========================================================================== */
+
+@media (max-width: 1199px) {
+  .prez {
+    width: 90%;
+  }
+}
+
+@media (max-width: 991px) {
+  .paragraphe {
+    width: 95%;
+    margin-top: 50px;
+    margin-left: 0;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .paragraphe {
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 0;
+  }
+  .loisirs {
+    padding-bottom: 180px;
+  }
+  .iconLoisirs {
+    width: 80%;
+  }
+  .artLoisirs {
+    width: 30%;
+  }
+  .zoom p {
+    font-size: 13px;
+  }
+}
+
+/* ==========================================================================
+   END RESPONSIVE STYLING
    ========================================================================== */
