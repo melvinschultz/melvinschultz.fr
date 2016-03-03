@@ -13,7 +13,18 @@
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <body>
-  <header>
+  <header id="bienvenue">
+    <span id="burger" class="fa fa-reorder fa-3x"></span>
+    <nav id="blocMenu" class="fermer">
+      <p><span id="chevron" class="close fa fa-angle-right fa-3x"></span></p>
+      <div class="menu">
+        <a class="lien" href="#bienvenue">Bienvenue</a>
+        <a class="lien" href="#aPropos">A propos</a>
+        <a class="lien" href="#experiences">Expériences</a>
+        <a class="lien" href="#hobbies">Loisirs</a>
+        <a class="lien" href="#contactMe">Contact</a>
+      </div>
+    </nav>
     <section class="home">
       <h1 id="prenom" class="animated flipInX">MEL<span>V</span>IN</h1>
       <h2 id="nom" class="animated_trois zoomIn">SCHULTZ</h2>
@@ -23,7 +34,7 @@
     </section>
   </header>
 
-  <div class="conteneurPrez">
+  <div id="aPropos" class="conteneurPrez">
     <section class="prez">
       <img id="photo" class="animated_trois bounceIn" src="images/photo_melvin_sch1.png" alt="photo Melvin SCH." width="" height="" />
       <article class="paragraphe">
@@ -41,7 +52,7 @@
     </section>
   </div>
 
-    <div class="conteneurExpPro">
+    <div id="experiences" class="conteneurExpPro">
       <div class="titreExpPro">
         <h4><span>M</span>es expériences pro...</h4>
         <img src="images/hrVBtresfin2.png" alt="" width="150px" height="1px" />
@@ -116,7 +127,7 @@
       </article>
     </section>
 
-    <section class="loisirs">
+    <section id="hobbies" class="loisirs">
       <h4><span>E</span>n dehors de mon job...</h4>
       <img src="images/hrVBtresfin2.png" alt="" width="150px" height="1px" />
       <article class="iconLoisirs">
@@ -171,7 +182,7 @@
       </article>
     </section>
 
-    <div class="titreContact">
+    <div id="contactMe" class="titreContact">
       <h4><span>C</span>ontactez moi !</h4>
       <img src="images/hrVBtresfin2.png" alt="" width="150px" height="1px" />
     </div>
@@ -202,9 +213,9 @@
 
         <!-- mettre un aside -->
         <h5 class="titreRsx">Vous pouvez également me retrouver sur les réseaux sociaux !</h5>
-        <a href="https://www.facebook.com/profile.php?id=100011350902644"><i class="fa fa-facebook fa-lg"></i> Facebook</a>
-        <a href="https://twitter.com/MelvinSchultz"><i class="fa fa-twitter fa-lg"></i> Twitter</a>
-        <a href="https://www.linkedin.com/in/melvin-schultz-072430110?trk=nav_responsive_tab_profile_pic"><i class="fa fa-linkedin fa-lg"></i> LinkedIn</a>
+        <a id="fb" href="https://www.facebook.com/profile.php?id=100011350902644"><i class="fa fa-facebook fa-lg"></i> Facebook</a>
+        <a id="tw" href="https://twitter.com/MelvinSchultz"><i class="fa fa-twitter fa-lg"></i> Twitter</a>
+        <a id="ldin" href="https://www.linkedin.com/in/melvin-schultz-072430110?trk=nav_responsive_tab_profile_pic"><i class="fa fa-linkedin fa-lg"></i> LinkedIn</a>
       </article>
     </section>
 
@@ -216,6 +227,7 @@
       </section>
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="js/javascript.js"></script>
 </body>
 </html>
