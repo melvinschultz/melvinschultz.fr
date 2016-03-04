@@ -542,7 +542,8 @@ textarea:focus {
 .button:hover {
   color: #E0E0E0;
   background-color: #00A208;
-  transition: 0.5s;
+  transition: 0.8s;
+  cursor: pointer;
 }
 .telMail {
   width: 30%;
@@ -571,6 +572,20 @@ textarea:focus {
 .telMail a:hover {
   color: #00A208;
   transition: 0.6s;
+}
+.coord {
+  background-color: #252525;
+  border: none;
+  padding: 20px;
+  color: #E0E0E0;
+}
+.coord:hover {
+  background-color: #00A208;
+  cursor: pointer;
+  transition: 0.8s;
+}
+.coord1 {
+  margin: 15px 0;
 }
 
 /* ==========================================================================

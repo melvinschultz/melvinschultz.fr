@@ -1,3 +1,4 @@
+// MENU
 $(document).ready(function() {
   $('#burger').click(function(){
       $('#blocMenu').attr('class', '');
@@ -17,7 +18,7 @@ $(document).ready(function() {
   });
 });
 
-
+// SMOOTHSCROLL
 /* dans le 2eme [href=#] mettre le nom de l'id a exclure de la fonction smoothscroll */
 $(function() {
   $('a[href*=#]:not([href=#fb],[href=#tw],[href=#ldin])').click(function() {
@@ -33,3 +34,17 @@ $(function() {
     }
   });
 });
+
+// INNER TEL
+var tel = document.getElementById('phone');
+
+tel.addEventListener('click', function() {
+  this.innerHTML = 'Non disponible';
+},false);
+
+// INNER MAIL
+var mail = document.getElementById('adrMail');
+
+mail.addEventListener('click', function() {
+  this.innerHTML = 'melvinschultzpro@gmail.com';
+},false);
