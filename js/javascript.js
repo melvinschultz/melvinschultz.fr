@@ -39,12 +39,12 @@ $(function() {
 var tel = document.getElementById('phone');
 
 tel.addEventListener('click', function() {
-  this.innerHTML = 'Non disponible';
+  this.innerHTML = '<i class="fa fa-phone"></i> ' + 'Non disponible';
 },false);
 
 // INNER MAIL
 var mail = document.getElementById('adrMail');
 
 mail.addEventListener('click', function() {
-  this.innerHTML = 'melvinschultzpro@gmail.com';
+  this.innerHTML = '<i class="fa fa-envelope"></i> ' + 'melvinschultzpro@gmail.com';
 },false);
