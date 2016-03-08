@@ -510,6 +510,7 @@ header {
 }
 .formContact {
   width: 40%;
+  display: none;
 }
 form {
   display: flex;
