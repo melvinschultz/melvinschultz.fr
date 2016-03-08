@@ -48,3 +48,74 @@ var mail = document.getElementById('adrMail');
 mail.addEventListener('click', function() {
   this.innerHTML = '<i class="fa fa-envelope"></i> ' + 'melvinschultzpro@gmail.com';
 },false);
+
+// Changement d'affichage d'expérience pro
+$(document).ready(function() {
+  $('#pois').click(function(){
+      $('#poissonnerie').css('display', 'flex');
+      $('#laGrandeRecre').hide();
+      $('#ecoleUpTo').hide();
+  });
+  $('#lgr').click(function(){
+      $('#laGrandeRecre').css('display', 'flex');
+      $('#poissonnerie').hide();
+      $('#ecoleUpTo').hide();
+  });
+  $('#upto').click(function(){
+      $('#ecoleUpTo').css('display', 'flex');
+      $('#laGrandeRecre').hide();
+      $('#poissonnerie').hide();
+  });
+});
+
+// Changement affichage hobbies
+$(document).ready(function() {
+  $('#ext').click(function(){
+      $('#spv').css('display', 'flex');
+      $('#jeuxVideos').hide();
+      $('#connected').hide();
+      $('#sortir').hide();
+      $('#voyage').hide();
+      $('#cinephile').hide();
+  });
+  $('#game').click(function(){
+      $('#jeuxVideos').css('display', 'flex');
+      $('#spv').hide();
+      $('#connected').hide();
+      $('#sortir').hide();
+      $('#voyage').hide();
+      $('#cinephile').hide();
+  });
+  $('#pc').click(function(){
+      $('#connected').css('display', 'flex');
+      $('#spv').hide();
+      $('#jeuxVideos').hide();
+      $('#sortir').hide();
+      $('#voyage').hide();
+      $('#cinephile').hide();
+  });
+  $('#friends').click(function(){
+      $('#sortir').css('display', 'flex');
+      $('#spv').hide();
+      $('#jeuxVideos').hide();
+      $('#connected').hide();
+      $('#voyage').hide();
+      $('#cinephile').hide();
+  });
+  $('#globe').click(function(){
+      $('#voyage').css('display', 'flex');
+      $('#spv').hide();
+      $('#jeuxVideos').hide();
+      $('#connected').hide();
+      $('#sortir').hide();
+      $('#cinephile').hide();
+  });
+  $('#ticket').click(function(){
+      $('#cinephile').css('display', 'flex');
+      $('#spv').hide();
+      $('#jeuxVideos').hide();
+      $('#connected').hide();
+      $('#sortir').hide();
+      $('#voyage').hide();
+  });
+});

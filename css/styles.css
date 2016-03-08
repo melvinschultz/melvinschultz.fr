@@ -262,6 +262,7 @@ header {
   color: #E0E0E0;
   font-family: 'Poiret One', cursive;
   text-decoration: none;
+  cursor: pointer;
 }
 .frise {
   display: flex;
@@ -269,10 +270,15 @@ header {
 }
 .detail {
   /*background-color: #080808;*/
-  height: 400px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: auto;
   color: #E0E0E0;
   display: flex;
   justify-content: space-around;
+}
+#poissonnerie {
+  display: none;
 }
 .job1 {
   width: 80%;
@@ -284,6 +290,8 @@ header {
   margin: auto;
   background: url(../images/backg/fishshop1.png) no-repeat;
   background-size: 100%;
+}
+#laGrandeRecre {
   display: none;
 }
 .job2 {
@@ -296,6 +304,8 @@ header {
   margin: auto;
   background: url(../images/backg/train1.png) no-repeat;
   background-size: 100%;
+}
+#ecoleUpTo {
   display: none;
 }
 .job3 {
@@ -308,7 +318,6 @@ header {
   margin: auto;
   background: url(../images/backg/code1.png) no-repeat;
   background-size: 100%;
-  /*display: none;*/
 }
 
 /*.job1:hover, .job2:hover, .job3:hover {
@@ -431,6 +440,7 @@ header {
   flex-wrap: wrap;
   align-items: center;
   color: #E0E0E0;
+  width: 120px;
 }
 .iconLoisirs {
   display: flex;
@@ -464,8 +474,11 @@ header {
   -webkit-filter: grayscale(100%);
   /* Chrome, Safari, Opera */
   filter: none;
-  transition: 0.8s;
+  transition: 0.5s;
   cursor: pointer;
+}
+#spv, #jeuxVideos, #connected, #sortir, #voyage, #cinephile {
+  display: none;
 }
 
 /* ==========================================================================
