@@ -676,6 +676,19 @@ footer {
 }
 
 @media (max-width: 767px) {
+  .expPro {
+    flex-direction: column-reverse;
+    height: 350px;
+    align-items: center;
+    padding-top: 50px;
+    justify-content: space-between;
+  }
+  .resum {
+    width: 100%;
+  }
+  .frise {
+    display: none;
+  }
   .paragraphe {
     width: 100%;
     margin-top: 50px;
@@ -692,6 +705,13 @@ footer {
   }
   .zoom p {
     font-size: 13px;
+  }
+  .telMail {
+    width: 90%;
+    text-align: center;
+  }
+  .titreRsx {
+    margin-top: 15px;
   }
 }
 
