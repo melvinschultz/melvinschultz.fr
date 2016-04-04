@@ -678,6 +678,9 @@ footer {
   h3 {
     font-size: 25px;
   }
+  #bienvenue {
+    height: 450px;
+  }
   #blocMenu {
     width: 70%;
   }
