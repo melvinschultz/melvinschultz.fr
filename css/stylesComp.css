@@ -943,17 +943,68 @@ footer {
     margin-top: 50px;
     margin-left: 0;
   }
-
 }
 
 @media (max-width: 767px) {
+  h3 {
+    font-size: 25px;
+  }
+  #bienvenue {
+    height: 500px;
+  }
+  #blocMenu {
+    width: 70%;
+  }
+  #job {
+    font-size: 35px;
+  }
+  #photo {
+    height: 250px;
+  }
+  .topo {
+    font-size: 14px;
+  }
+  .expPro {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    height: 350px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 50px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .resum {
+    width: 100%;
+  }
+  .frise {
+    display: none;
+  }
   .paragraphe {
     width: 100%;
     margin-top: 50px;
     margin-left: 0;
   }
+  .img_skills {
+    height: 200px;
+  }
+  .img_skills img {
+    -webkit-filter: none;
+    filter: none;
+    height: 40%;
+  }
+  .study {
+    height: 300px;
+  }
   .loisirs {
-    padding-bottom: 180px;
+    padding-bottom: 100px;
   }
   .iconLoisirs {
     width: 80%;
@@ -961,8 +1012,22 @@ footer {
   .artLoisirs {
     width: 30%;
   }
+  .zoom img {
+    -webkit-filter: none;
+    filter: none;
+  }
   .zoom p {
     font-size: 13px;
+  }
+  .telMail {
+    width: 90%;
+    text-align: center;
+  }
+  .titreRsx {
+    margin-top: 70px;
+  }
+  .copyright p {
+    font-size: 10px;
   }
 }
 
