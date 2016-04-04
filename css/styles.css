@@ -712,6 +712,7 @@ footer {
     height: 200px;
   }
   .img_skills img {
+    -webkit-filter: none;
     filter: none;
     height: 40%;
   }
@@ -728,6 +729,7 @@ footer {
     width: 30%;
   }
   .zoom img {
+    -webkit-filter: none;
     filter: none;
   }
   .zoom p {
