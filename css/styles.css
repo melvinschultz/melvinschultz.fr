@@ -678,6 +678,9 @@ footer {
   h3 {
     font-size: 25px;
   }
+  #blocMenu {
+    width: 70%;
+  }
   #job {
     font-size: 35px;
   }
