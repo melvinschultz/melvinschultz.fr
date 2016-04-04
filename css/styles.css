@@ -672,10 +672,21 @@ footer {
     margin-top: 50px;
     margin-left: 0;
   }
-
 }
 
 @media (max-width: 767px) {
+  h3 {
+    font-size: 25px;
+  }
+  #job {
+    font-size: 35px;
+  }
+  #photo {
+    height: 250px;
+  }
+  .topo {
+    font-size: 14px;
+  }
   .expPro {
     flex-direction: column-reverse;
     height: 350px;
@@ -694,14 +705,27 @@ footer {
     margin-top: 50px;
     margin-left: 0;
   }
+  .img_skills {
+    height: 200px;
+  }
+  .img_skills img {
+    filter: none;
+    height: 40%;
+  }
+  .study {
+    height: 300px;
+  }
   .loisirs {
-    padding-bottom: 180px;
+    padding-bottom: 100px;
   }
   .iconLoisirs {
     width: 80%;
   }
   .artLoisirs {
     width: 30%;
+  }
+  .zoom img {
+    filter: none;
   }
   .zoom p {
     font-size: 13px;
@@ -711,7 +735,10 @@ footer {
     text-align: center;
   }
   .titreRsx {
-    margin-top: 15px;
+    margin-top: 70px;
+  }
+  .copyright p {
+    font-size: 10px;
   }
 }
 
