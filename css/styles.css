@@ -88,6 +88,7 @@ a {
   justify-content: center;
   background-color: #111111;
   height: 671px;
+
 }
 .loading {
   justify-content: space-around;
@@ -119,7 +120,6 @@ header {
   background-size: cover;
   background-attachment: fixed;
   height: 675px;
-  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
