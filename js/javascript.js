@@ -119,3 +119,10 @@ $(document).ready(function() {
       $('#voyage').hide();
   });
 });
+
+// Chargement page
+$(document).ready(function(){
+    $('.loadingPage').fadeOut(5000, function(){
+        $('.website').show();
+    });
+});

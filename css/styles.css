@@ -52,7 +52,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #E0E0E0;
+  background-color: #111111;
   overflow: scroll;
   overflow-x: hidden;
 }
@@ -77,6 +77,38 @@ span {
 a {
   font-family: 'Poiret One', cursive;
 }
+
+/* ==========================================================================
+   Chargement du site
+   ========================================================================== */
+
+.loadingPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #111111;
+  height: 671px;
+}
+.loading {
+  justify-content: space-around;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.spinner {
+  color: #00A208;
+}
+.chargement {
+  font-size: 25px;
+  color: #E0E0E0;
+}
+.website {
+  display: none;
+}
+
+/* ==========================================================================
+   END CHARGEMENT DU SITE
+   ========================================================================== */
 
 /* ==========================================================================
    header
@@ -120,7 +152,7 @@ header {
   transition: all ease-in 0.5s;
 }
 #blocMenu.fermer {
-  width: 0%;
+  width: 0;
 }
 #blocMenu p {
   text-align: right;
