@@ -310,7 +310,7 @@ header {
   justify-content: space-around;
 }
 #poissonnerie {
-  display: none;
+  /*display: none;*/
 }
 .job1 {
   width: 80%;
@@ -536,7 +536,7 @@ header {
   transition: 0.5s;
   cursor: pointer;
 }
-#spv, #jeuxVideos, #connected, #sortir, #voyage, #cinephile {
+.hide {
   display: none;
 }
 
