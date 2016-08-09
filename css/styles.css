@@ -77,6 +77,9 @@ span {
 a {
   font-family: 'Poiret One', cursive;
 }
+.hide {
+  display: none;
+}
 
 /* ==========================================================================
    Chargement du site
@@ -535,9 +538,6 @@ header {
   filter: none;
   transition: 0.5s;
   cursor: pointer;
-}
-.hide {
-  display: none;
 }
 
 /* ==========================================================================
