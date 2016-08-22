@@ -52,19 +52,16 @@ mail.addEventListener('click', function() {
 // Changement d'affichage d'expérience pro
 $(document).ready(function() {
   $('#pois').click(function(){
-      $('#poissonnerie').toggle('hide');
       $('#poissonnerie').css('display', 'flex');
       $('#laGrandeRecre').hide();
       $('#ecoleUpTo').hide();
   });
   $('#lgr').click(function(){
-      $('#laGrandeRecre').toggle('hide');
       $('#laGrandeRecre').css('display', 'flex');
       $('#poissonnerie').hide();
       $('#ecoleUpTo').hide();
   });
   $('#upto').click(function(){
-      $('#ecoleUpTo').toggle('hide');
       $('#ecoleUpTo').css('display', 'flex');
       $('#laGrandeRecre').hide();
       $('#poissonnerie').hide();
@@ -74,7 +71,7 @@ $(document).ready(function() {
 // Changement affichage hobbies
 $(document).ready(function() {
   $('#ext').click(function(){
-      $('#spv').toggle('hide');
+      $('#spv').css('display', 'flex');
       $('#jeuxVideos').hide();
       $('#connected').hide();
       $('#sortir').hide();
@@ -82,7 +79,7 @@ $(document).ready(function() {
       $('#cinephile').hide();
   });
   $('#game').click(function(){
-      $('#jeuxVideos').toggle('hide');
+      $('#jeuxVideos').css('display', 'flex');
       $('#spv').hide();
       $('#connected').hide();
       $('#sortir').hide();
@@ -90,7 +87,7 @@ $(document).ready(function() {
       $('#cinephile').hide();
   });
   $('#pc').click(function(){
-      $('#connected').toggle('hide');
+      $('#connected').css('display', 'flex');
       $('#spv').hide();
       $('#jeuxVideos').hide();
       $('#sortir').hide();
@@ -98,7 +95,7 @@ $(document).ready(function() {
       $('#cinephile').hide();
   });
   $('#friends').click(function(){
-      $('#sortir').toggle('hide');
+      $('#sortir').css('display', 'flex');
       $('#spv').hide();
       $('#jeuxVideos').hide();
       $('#connected').hide();
@@ -106,7 +103,7 @@ $(document).ready(function() {
       $('#cinephile').hide();
   });
   $('#globe').click(function(){
-      $('#voyage').toggle('hide');
+      $('#voyage').css('display', 'flex');
       $('#spv').hide();
       $('#jeuxVideos').hide();
       $('#connected').hide();
@@ -114,7 +111,7 @@ $(document).ready(function() {
       $('#cinephile').hide();
   });
   $('#ticket').click(function(){
-      $('#cinephile').toggle('hide');
+      $('#cinephile').css('display', 'flex');
       $('#spv').hide();
       $('#jeuxVideos').hide();
       $('#connected').hide();
