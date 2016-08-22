@@ -812,6 +812,13 @@ footer {
   .devicon-javascript-plain {
     font-size: 5em;
   }
+  .job1, .job2, .job3 {
+    flex-direction: column;
+    height: 400px;
+  }
+  .artExp {
+    width: 80%;
+  }
   .study {
     height: 300px;
   }
