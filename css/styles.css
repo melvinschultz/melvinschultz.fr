@@ -793,13 +793,18 @@ footer {
     margin-top: 50px;
     margin-left: 0;
   }
-  .img_skills {
-    height: 200px;
+  .skills {
+    padding: 40px 0;
   }
-  .img_skills img {
-    -webkit-filter: none;
-    filter: none;
-    height: 40%;
+  .img_skills {
+    height: 220px;
+  }
+  .devicon {
+    font-size: 6em;
+    width: 34%;
+  }
+  .devicon-javascript-plain {
+    font-size: 5em;
   }
   .study {
     height: 300px;
