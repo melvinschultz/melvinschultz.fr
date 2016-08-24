@@ -453,6 +453,9 @@ header {
   height: 60px;
   margin-bottom: 30px;
 }
+.lien {
+  margin-bottom: 20px;
+}
 .realisations a.lien {
   color: #E0E0E0;
   text-decoration: none;
@@ -478,17 +481,6 @@ header {
   margin-top: 10px;
   line-height: 30px;
 }
-.rectangle {
-  width: 150px;
-  height: 246px;
-}
-/*.realisations ul {*/
-  /*height: 100px;*/
-  /*display: flex;*/
-  /*flex-direction: column;*/
-  /*justify-content: space-around;*/
-/*}*/
-
 
 /* ==========================================================================
       study
