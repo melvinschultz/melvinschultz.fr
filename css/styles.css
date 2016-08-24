@@ -77,6 +77,9 @@ span {
 a {
   font-family: 'Poiret One', cursive;
 }
+.bold {
+  font-weight: bold;
+}
 
 /* ==========================================================================
    Chargement du site
@@ -104,7 +107,7 @@ a {
   color: #E0E0E0;
 }
 .website {
-  display: none;
+  /*display: none;*/
 }
 
 /* ==========================================================================
@@ -434,16 +437,21 @@ header {
 
 
 #portfolio {
-  height: 250px;
+  height: auto;
+  margin: 50px 0;
   color: #E0E0E0;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
+#portfolio article {
+  width: 100%;
+}
 .titreRealisations {
   color: #ffffff;
   height: 60px;
+  margin-bottom: 30px;
 }
 .realisations a.lien {
   color: #E0E0E0;
@@ -452,12 +460,34 @@ header {
 .realisations a:hover.lien {
   color: #00A208;
 }
-.realisations ul {
-  height: 100px;
+.all-reals {
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
+.work {
+  opacity: 0.5;
+  border-top: 2px solid #111111;
+}
+.work:hover {
+  opacity: 1;
+  border-color: #00A208;
+}
+.desc-work {
+  color: #fff;
+  margin-top: 10px;
+  line-height: 30px;
+}
+.rectangle {
+  width: 150px;
+  height: 246px;
+}
+/*.realisations ul {*/
+  /*height: 100px;*/
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*justify-content: space-around;*/
+/*}*/
 
 
 /* ==========================================================================
